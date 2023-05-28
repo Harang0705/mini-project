@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>대충 메인페이지</title>
+</head>
+<body>
+    <header class="bg-red-400 text-white">
+        <div class="container mx-auto flex items-center justify-between py-4">
+          <a href="./" class="text-white text-2xl font-bold">냥이의 과제</a>
+    
+          <nav class="space-x-4">
+            <a href="./html/impormation.html" class="text-white">정보</a>
+            <a href="./html/introduction.html" class="text-white">소개</a>
+            <a href="./html/resume.html" class="text-white">이력서</a>
+            <a href="./html/design.html" class="text-white">구성&디자인 설명</a>
+          </nav>
+        </div>
+      </header>
+
+    <div class="container mx-auto py-8">
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          <!-- Page 1 -->
+          <a href="./html/impormation.html" class="block bg-white rounded-lg shadow-md hover:bg-blue-100 transition duration-300 ease-in-out transform hover:scale-105">
+            <!-- Page 1 내용 -->
+            <img src="./image/impormation.jpg" alt="Page 1" class="w-full h-40 object-cover rounded-t-lg">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">정보</h3>
+              <p class="text-gray-700">해당 페이지는 냥이의 정보가 담겨져 있는 페이지 입니다. : )</p>
+            </div>
+          </a>
+          
+          <a href="./html/introduction.html" class="block bg-white rounded-lg shadow-md hover:bg-blue-100 transition duration-300 ease-in-out transform hover:scale-105">
+            <img src="./image/Introduction.jpg" alt="Page 2" class="w-full h-40 object-cover rounded-t-lg">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">소개</h3>
+              <p class="text-gray-700">해당 페이지에는 냥이의 소개가 포함되어 있습니다.</p>
+            </div>
+          </a>
+            
+          <a href="./html/resume.html" class="block bg-white rounded-lg shadow-md hover:bg-blue-100 transition duration-300 ease-in-out transform hover:scale-105">          
+            <img src="./image/resume.png" alt="Page 3" class="w-full h-40 object-cover rounded-t-lg">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">이력서</h3>
+              <p class="text-gray-700">해당 페이지에는 냥이의 이력서가 포함되어 있습니다.</p>
+            </div>
+          </a>
+            
+          <a href="./html/design.html" class="block bg-white rounded-lg shadow-md hover:bg-blue-100 transition duration-300 ease-in-out transform hover:scale-105">          
+            <img src="./image/design.jpg" alt="Page 3" class="w-full h-40 object-cover rounded-t-lg">
+            <div class="p-4">
+              <h3 class="text-xl font-bold mb-2">구성&디자인 설명</h3>
+              <p class="text-gray-700">해당 홈페이지에 활용된 페이지들의 대한 구성과 디자인에 대한 설명이 있습니다.</p>
+            </div>
+          </a>
+        </div>
+    </div>
+</body>
+</html>
